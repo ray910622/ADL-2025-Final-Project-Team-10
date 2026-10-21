@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# LoRA adapter weights — not published, train your own (see README)
+code/adapter_model/
+
+# finetune outputs
+code/src/finetune/finetuned_models/
+code/src/finetune/data/processed_data.jsonl
